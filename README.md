@@ -10,4 +10,5 @@ To generate stock data:
 Scripts : 
   * **predicting_daily_trading_labels.py**: for predicting daily trading labels using ensemble learning and analyzing prediction accuracy and portfolio growth based on different patterns
   * **trading_strategies.py**: simulates different investment strategies
-  * **stock data plot.py**: displays and saves a plot of prices between two dates
+  * **stock_data_plot.py**: displays and saves a plot of prices between two dates
+  * **label_weeks.py**: automates the process of labelling weekly stock data as 'green' or 'red'. The script assigns 'green' labels to weeks when the closing price at the end of the week is higher than the opening price without significant price volatility, and "red" label to weeks when the closing price is lower than the opening price or experiences dips below the opening price during the week.
