@@ -10,4 +10,4 @@ To generate stock data:
 Scripts : 
   * **predicting_daily_trading_labels.py**: for predicting daily trading labels using ensemble learning and analyzing prediction accuracy and portfolio growth based on different patterns
   * **trading_strategies.py**: simulates different investment strategies
-  * 
+  * **stock data plot.py**: displays and saves a plot of prices between two dates
