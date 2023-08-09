@@ -12,3 +12,5 @@ Scripts :
   * **trading_strategies.py**: simulates different investment strategies
   * **stock_data_plot.py**: displays and saves a plot of prices between two dates
   * **label_weeks.py**: automates the process of labelling weekly stock data as 'green' or 'red'. The script assigns 'green' labels to weeks when the closing price at the end of the week is higher than the opening price without significant price volatility, and "red" label to weeks when the closing price is lower than the opening price or experiences dips below the opening price during the week.
+  * **compute_stocks_weekly_return_volatility.py**: retrieves historical stock price data and calculates weekly returns and their statistics (mean and volatility) for each year and week, and generates two CSV files: one with summarized statistics and another that combines these statistics with the original data. The data is gathered between January 2019 and December 2020.
+  * 
