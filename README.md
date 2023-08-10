@@ -15,4 +15,4 @@ Scripts :
   * **compute_stocks_weekly_return_volatility.py**: retrieves historical stock price data and calculates weekly returns and their statistics (mean and volatility) for each year and week, and generates two CSV files: one with summarized statistics and another that combines these statistics with the original data. The data is gathered between January 2019 and December 2020
   * **examine_labels.py**: generates scatter plots using Matplotlib to visualize the correlation between mean returns, volatility, and color labels ("Green" or "Red") assigned to stock data for the years 2019 and 2020
   * **trading_with_labels.py**: simulates a trading strategy for a stock using weekly "green" and "red" labels, starting with $100. It calculates account growth, volatility, and analyzes the duration of value increase and decrease for each year.
-  * 
+  * **separate_points.py**: visually separates data points using a defined line, and simulates a basic trading strategy using labels based on this line.
